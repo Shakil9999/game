@@ -254,16 +254,13 @@ main {
   align-items: center;
 }
 
-.icon:hover{
+.icon:hover {
   border: 1px solid #ff42a5;
   padding: 10px;
   border-radius: 35px;
   transition: 1s;
   color: #f948b2;
-  
 }
-
-
 
 /* footer-section style */
 .footer {
@@ -293,6 +290,12 @@ main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+.story {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
 
 .footer-icons {
   width: 500px;
@@ -308,14 +311,15 @@ main {
   padding-bottom: 35px;
   gap: 25px;
 }
-
-.footer-icons > a {
+.fa-youtube{
   color: #fff;
 }
-
-.fi {
+.footer-icons > a {
+  color: #fff;
   font-size: 2rem;
 }
+
+
 
 .footer-terms {
   display: grid;
