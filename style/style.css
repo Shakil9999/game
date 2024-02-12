@@ -255,10 +255,13 @@ main {
 }
 
 .icon:hover {
-  border: 1px solid #ff42a5;
-  padding: 10px;
+  border: 2px solid #ff42a5;
+  padding: 5px 10PX 5PX 10px;
   border-radius: 35px;
   transition: 1s;
+
+}
+.icon-title:hover{
   color: #f948b2;
 }
 
