@@ -198,6 +198,8 @@ main {
   width: 100%;
   height: 100%;
   transition: all .7s;
+  border: 2px solid #f948b2;
+  border-radius: 5px;
 }
 
 .card-img:hover .shado{
@@ -207,6 +209,7 @@ main {
 .shado-icon{
   color: #fff;
   font-size: 2rem;
+  padding-top: 50px;
   padding-left: 75px;
 }
 
