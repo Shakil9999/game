@@ -183,8 +183,44 @@ main {
 .card {
   width: 200px;
 }
+
 .card-img {
   width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.shado {
+  background-color: #0b0223d3;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+}
+
+.card-img:hover .shado{
+  top: 0;
+}
+
+.shado-icon{
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 75px;
+}
+
+
+
+
+
+
+.card-img > img {
+  width: 100%;
+}
+
+.fa-airplay {
+  color: #0b0223;
 }
 
 .card-discription {
@@ -256,12 +292,11 @@ main {
 
 .icon:hover {
   border: 2px solid #ff42a5;
-  padding: 5px 10PX 5PX 10px;
+  padding: 5px 10px 5px 10px;
   border-radius: 35px;
   transition: 1s;
-
 }
-.icon-title:hover{
+.icon-title:hover {
   color: #f948b2;
 }
 
@@ -314,15 +349,13 @@ main {
   padding-bottom: 35px;
   gap: 25px;
 }
-.fa-youtube{
+.fa-youtube {
   color: #fff;
 }
 .footer-icons > a {
   color: #fff;
   font-size: 2rem;
 }
-
-
 
 .footer-terms {
   display: grid;
@@ -342,4 +375,11 @@ main {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   font-weight: 500;
+}
+
+@media screen and (max-width: 572px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
 }
