@@ -33,6 +33,8 @@ img {
   margin-right: 15px;
 }
 
+
+
 .secoundry-btn {
   padding: 20px 40px;
   background-color: #4ec5f7;
@@ -58,6 +60,20 @@ main {
 .nav-items > ul {
   display: flex;
   align-items: center;
+}
+
+.nav-flex{
+  display: flex;
+}
+
+.nav-flex >li{
+  margin-right: 35px;
+
+}
+.nav-flex >li >a{
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .nav-items > ul > li > a {
@@ -381,8 +397,22 @@ main {
 }
 
 @media screen and (max-width: 572px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
+  .navber,
+  .banner-section,
+  .nav-items > ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.follow-us > a {
+  margin-left: 10px;
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav-flex{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 }
