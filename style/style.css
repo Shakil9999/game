@@ -396,9 +396,20 @@ main {
   font-weight: 500;
 }
 
+
+
+
+
+
+
+
+/* for mobile view */
+
+
 @media screen and (max-width: 572px) {
   .navber,
   .banner-section,
+  .Play-section,
   .nav-items > ul {
     display: flex;
     align-items: center;
@@ -414,5 +425,26 @@ main {
 .nav-flex{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.online-game-card {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.icon-section {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 25px;
+}
+
+.footer-game {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.footer-terms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 }
